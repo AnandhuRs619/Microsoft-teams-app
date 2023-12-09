@@ -31,7 +31,7 @@ export const SidebarMore = [
 
     {
         id : 1,
-    icon :<i class="fi fi-rr-backpack"></i>,
+    icon :<i class="fi fi-rr-menu-dots"></i>,
     }
 ];
 

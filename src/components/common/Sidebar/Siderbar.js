@@ -1,6 +1,7 @@
 import React from 'react'
 import { SidebarData ,SidebarMore ,SidebarButtom } from '../../data/sidebar'
 import { SiderbarOptions } from './SiderbarOptions';
+import "./Siderbar.css"
 export const Siderbar = () => {
     const topOptions = SidebarData;
     const more = SidebarMore;
@@ -16,7 +17,7 @@ export const Siderbar = () => {
                 })}
             </div>
             <div>
-               <SiderbarOptions option={more}  />
+               <SiderbarOptions option={more}/>
             </div>
         </div>
         <div className='sidebar-bottom'>
