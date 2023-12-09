@@ -31,7 +31,7 @@ export const SidebarMore = [
 
     {
         id : 1,
-    icon :<i class="fi fi-rr-menu-dots"></i>,
+    icon :<i class="fi fi-rr-backpack"></i>,
     }
 ];
 
@@ -39,7 +39,7 @@ export const SidebarButtom = [
     {
         id : 1,
     name : 'Apps',
-    icon :<i class="fi fi-rs-apps"></i>,
+    icon :<i class="fi fi-rr-apps"></i>,
     },
     {
         id : 2,

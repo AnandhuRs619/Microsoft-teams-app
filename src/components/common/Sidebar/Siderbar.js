@@ -10,17 +10,19 @@ export const Siderbar = () => {
         <div className='sidebar-top'>
             <div>
                 {topOptions.map((option)=>{
-                    return <SiderbarOptions option={option}/>
+                    return ( <SiderbarOptions option={option} 
+                    isActive={option.name==="calls" ? true:false}/>
+                    )
                 })}
             </div>
             <div>
-                <div>This is more</div>
+               <SiderbarOptions option={more}  />
             </div>
         </div>
         <div className='sidebar-bottom'>
             {buttonOptions.map((option)=>{
                 return(
-                    <div>this is bottom</div>
+                    <SiderbarOptions option={option}/>
                 )
             })}
         </div>
